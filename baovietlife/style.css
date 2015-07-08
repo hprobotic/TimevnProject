@@ -1750,6 +1750,7 @@ a img.aligncenter {
   height: 100%;
   left: 0px;
   position: absolute;
+
 }
 #slide_1 .bg-2 {
   background: url(images/s1bg2.png) no-repeat;
@@ -2295,4 +2296,43 @@ ul.list-connect  li {
   right: -32px;
   bottom: -63px;
 
+}
+#section_1 {
+    z-index: 5
+}
+#section_2 {
+    z-index: 4
+}
+
+#section_3 {
+    z-index: 3
+}
+#section_4 {
+    z-index: 2
+}
+#section_5 {
+    z-index: 1
+}
+.pall2 {
+  width: 421px;
+  height: 523px;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  background: url(images/pallralax2.png) no-repeat top center;
+}
+.pall1 {
+  width: 664px;
+  height: 290px;
+  position: absolute;
+  top: 200px;
+  right: -100px;
+  background: url(images/pallralax1.png) no-repeat top center;
+}
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+}
+.parallax-layer {
+    position: absolute;
 }

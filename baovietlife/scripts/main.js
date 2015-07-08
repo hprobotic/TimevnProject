@@ -1,4 +1,9 @@
-
+jQuery(document).ready(function(){
+			// Declare parallax on layers
+			$('.parallax-layer').parallax({
+				mouseport: jQuery("#port")
+			});
+		});
 jQuery(document).ready(function($) {
 
     // Create transition durations
@@ -18,7 +23,7 @@ jQuery(document).ready(function($) {
             fitToSection: true,
 
             easingcss3: 'ease-in-out',
-            responsive: 960, 
+            responsive: 960,
             onLeave: function(index, nextIndex, direction){
                 // and disable follow nextIndex
                 $('#section_' + index).find('.wow').each(function(index, el) {
