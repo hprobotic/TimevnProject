@@ -2,38 +2,32 @@
 jQuery(document).ready(function($) {
 
     // Create transition durations
-    $('.home').find('[data-wow-delay]').each(function(index, el) {
-        var delay = parseInt($(this).data('wowDelay'));
-        $(this).css('animationDelay', delay);
-    });
-    $('.home').find('[data-wow-duration]').each(function(index, el) {
-        var duration = parseInt($(this).data('wowDuration'));
-        $(this).css('animationDuration', duration);
+    $('.home').find('.wow').each(function(index, el) {
+        var delay = ($(this).attr('data-wow-delay'));
+          var duration = ($(this).attr('data-wow-duration'))
+        $(this).css({
+          'animation-duration': duration,
+          'animation-delay': delay
+      });
     });
 
 
     function home_fullpage_init(){
         $('#main').fullpage({
-          anchors: ['section-1', 'section-2', 'section-3', 'section-4','section-5', 'footer'],
+          anchors: ['section-1', 'section-2', 'section-3', 'section-4', 'footer'],
             fitToSection: true,
 
             easingcss3: 'ease-in-out',
-            responsive: 960,
-            afterLoad: function(anchorLink, index){
-                $('#section_1').find('.wow').each(function(index, el) {
-                    var effect = $(this).data('wowType');
-                    $(this).addClass(effect + ' animated');
-                });
-            },
+            responsive: 960, 
             onLeave: function(index, nextIndex, direction){
                 // and disable follow nextIndex
                 $('#section_' + index).find('.wow').each(function(index, el) {
-                    var effect = $(this).data('wowType');
+                    var effect = $(this).attr('data-wow-type');
                     $(this).removeClass(effect + ' animated');
                 });
                 // and enable others
                 $('#section_' + nextIndex).find('.wow').each(function(index, el) {
-                    var effect = $(this).data('wowType');
+                    var effect = $(this).attr('data-wow-type');
                     $(this).addClass(effect + ' animated');
                 });
 
