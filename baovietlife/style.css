@@ -199,17 +199,17 @@ ul, li{
     padding: 20px 0 0;
 }
 .nav-meta .search{
-    border-left: 1px solid #f1f1f1;
+
     margin-left: 10px;
 }
 .nav-meta .search input{
     width: 90px;
-    padding: 5px 30px 5px 3px;
+    padding: 10px 0px 5px 27px;
     border: 0;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #0979bb;
     margin-left: 11px;
     background-color: transparent;
-    color: #fff;
+    background: url(images/nav-search.png) no-repeat left;
 }
 .nav-meta .search input::-moz-selection {
     color: #222;
@@ -422,15 +422,13 @@ ul.page-numbers li a.next{
     color: #d53d84;
 }
 
-#main{
-    margin-top: -30px;
-}
+
 .home #main{
-    margin-top: 80px;
+
 }
 
 #section_1{
-    margin-bottom: -30px;
+
 }
 #slide_1{
     /*top: -30px;*/
@@ -598,9 +596,7 @@ ul.page-numbers li a.next{
     background-color: #ebebeb;
 }
 
-#section_5 .container{
-    padding: 30px 0 40px;
-}
+
 #section_5 .meta{
     text-align: center;
 }
@@ -1884,7 +1880,7 @@ span.strong {
   height: 511px;
   position: absolute;
   z-index: 3;
-  bottom: 40px;
+  bottom: 00px;
   right: 0;
 }
 
@@ -1897,7 +1893,7 @@ span.strong {
 .section-content {
   position: relative;
   z-index: 4;
-  padding-top: 110px;
+  padding-top: 210px;
   width: 427px;
 }
 .section-content .title .line1 {
@@ -1957,7 +1953,7 @@ width: 21px;
   position: absolute;
   width: 100%;
 top: 0px;
-bottom: 80px;
+bottom: 0px;
   background: #fff url(images/s3bg1.jpg) no-repeat bottom center;
 
 }
@@ -1970,7 +1966,7 @@ bottom: 80px;
   left: 50%;
   margin-left: -225px;
   padding: 120px 80px;
-  bottom: 100px;
+  bottom: 20px;
 
   line-height: 1.5;
   text-align: center;
@@ -1988,7 +1984,7 @@ bottom: 80px;
   position: absolute;
   left: 50%;
   margin-left: -459px;
-  bottom: 521px;
+  bottom: 500px;
   color: #0979BB;
   line-height: 1.3;
   text-transform: uppercase;
@@ -2008,7 +2004,7 @@ bottom: 80px;
   position: absolute;
   width: 100%;
   top: 0;
-  bottom: 80px;
+  bottom: 0px;
   background: url(images/s4bg1.jpg) no-repeat;
   background-size: cover;
 }
@@ -2071,7 +2067,7 @@ bottom: 80px;
     background-size: cover;
     width: 100%;
     top: 0;
-    bottom: 80px;
+    bottom: 0px;
     position: absolute;
 }
 
@@ -2081,7 +2077,7 @@ bottom: 80px;
     height: 493px;
     position: absolute;
     right: 0px;
-    bottom: 80px;
+    bottom: 00px;
 }
 #section_5 .container {
     height: 100%;
@@ -2093,7 +2089,7 @@ bottom: 80px;
     background: #fff;
     position: absolute;
     left: -176px;
-    bottom: -80px;
+    bottom: -40px;
     padding-left: 200px;
     padding-top: 100px;
 }
@@ -2125,4 +2121,96 @@ ul.list-style1 li {
     background: url(images/stick.png) no-repeat left top;
     font-size: 18px;
     margin-bottom: 20px;
+}
+#section-footer .footerx {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+  padding: 20px 0;
+  height: 250px;
+}
+#section-footer {
+  border-top: 30px solid #0979bb;
+
+}
+.ft-menu {
+  margin-top: 20px;
+}
+.ft-menu ul li {
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  padding: 0 10px;
+  position: relative;
+}
+.ft-menu ul li:first-child {
+  padding-left: 0px;
+}
+.ft-menu ul li:after {
+  display: block;
+  width: 2px;
+  height: 6px;
+  background: #d4d5d5;
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 8px;
+
+}
+.ft-menu ul li:last-child:after {
+  display: none;
+}
+.sup-email {
+  padding-left: 100px;
+  background: url(images/sup-email.png) no-repeat right;
+  padding-left: 14px;
+  text-transform: uppercase;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  color: #272c2f;
+  text-align: left;
+  width: 225px;
+  margin-bottom: 10px;
+}
+.sup-hot {
+  padding-left: 100px;
+  background: url(images/sup-hot.png) no-repeat right;
+  padding-left: 14px;
+  text-transform: uppercase;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  color: #272c2f;
+  text-align: left;
+  width: 225px;
+}
+.chtg {
+  background: url(images/chtg.png) no-repeat;
+  width: 154px;
+  height: 131px;
+  display: block;
+}
+.sup-link {
+  padding-top: 50px;
+}
+.add-link {
+  float: right;
+}
+.branding-logo img{
+  float: left;
+  display: block;
+}
+ul.list-connect {
+  float: left;
+  padding-top: 17px;
+}
+ul.list-connect  li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+
+}
+.footerx .grid7 {
+  padding-top: 30px;
 }

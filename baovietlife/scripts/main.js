@@ -4,18 +4,19 @@ jQuery(document).ready(function($) {
     // Create transition durations
     $('.home').find('[data-wow-delay]').each(function(index, el) {
         var delay = parseInt($(this).data('wowDelay'));
-        $(this).css('animationDuration', delay);
+        $(this).css('animationDelay', delay);
     });
     $('.home').find('[data-wow-duration]').each(function(index, el) {
         var duration = parseInt($(this).data('wowDuration'));
         $(this).css('animationDuration', duration);
     });
 
-    // Fullpage
+
     function home_fullpage_init(){
         $('#main').fullpage({
-            paddingBottom: 40,
+          anchors: ['section-1', 'section-2', 'section-3', 'section-4','section-5', 'footer'],
             fitToSection: true,
+
             easingcss3: 'ease-in-out',
             responsive: 960,
             afterLoad: function(anchorLink, index){
@@ -36,13 +37,7 @@ jQuery(document).ready(function($) {
                     $(this).addClass(effect + ' animated');
                 });
 
-                // Show/hide #footer
-                if(nextIndex == 5){
-                    $('#footer').addClass('fix');
-                }
-                else if(nextIndex != 5 && index == 5){
-                    $('#footer').removeClass('fix');
-                }
+
             }
         });
     }
