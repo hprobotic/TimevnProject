@@ -1,4 +1,6 @@
+
 jQuery(document).ready(function($) {
+
     // Create transition durations
     $('.home').find('[data-wow-delay]').each(function(index, el) {
         var delay = parseInt($(this).data('wowDelay'));
@@ -229,7 +231,7 @@ jQuery(document).ready(function($) {
             html += '   <p><strong>Điện thoại: </strong>'+ res[index]['shop_phone'] +'</p>';
             html += '</li>';
         }
-        
+
         if(html == '') {
             html = '<li class="row clearfix"><p class="tac"><strong>Không tìm thấy<br>Cửa hàng/Nhà phân phối</strong></p></li>';
         }
@@ -291,7 +293,7 @@ jQuery(document).ready(function($) {
                     .done(function(res) {
                         if(res.results) {
                             var html = '<option value="-1">Quận/Huyện</option>';
-                            
+
                             for(var index in res.results) {
                                 html += '<option value="'+ res.results[index]['id'] +'">'+ res.results[index]['title'] +'</option>';
                             }
@@ -330,7 +332,7 @@ jQuery(document).ready(function($) {
     if($('body').find('#map').length > 0) {
         create_map();
     }
-    
+
     $('.shop-list').delegate('a', 'click', function(event) {
         event.preventDefault();
         var latlng = $(this).attr('data-latlng');
@@ -344,7 +346,7 @@ jQuery(document).ready(function($) {
         // Create first map
         if(typeof(latlng) === 'undefined') latlng = ['21.018721', '105.816643']; // vi tri mac dinh
         geocoder = new google.maps.Geocoder();
-        
+
         var mapProp = {
             center: new google.maps.LatLng(parseFloat(latlng[0]), parseFloat(latlng[1])),
             zoom: 16,

@@ -597,6 +597,7 @@ ul.page-numbers li a.next{
 #section_4 .arrow-left-button{
     background-color: #ebebeb;
 }
+
 #section_5 .container{
     padding: 30px 0 40px;
 }
@@ -622,21 +623,7 @@ ul.page-numbers li a.next{
 #section_5 h3 a{
     font-size: 20px;
 }
-#section_5 p{
-    margin: 8px 0;
-    color: #5f5f5f;
-    font-size: 18px;
-}
-#section_5 p a.nm-button{
-    display: inline-block;
-    width: auto;
-    padding: 7px 10px 5px;
-    color: #fff;
-    font-size: 16px;
-    text-transform: none;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
+
 
 .popup{
     position: fixed;
@@ -1925,7 +1912,7 @@ span.strong {
   line-height: 1.5;
   margin-bottom: 20px;
   min-height: 50px;
-padding: 18px 20px;
+padding: 18px 0;
 position: relative;
 
 }
@@ -1933,7 +1920,7 @@ position: relative;
     background: url("images/quotes_left.png") no-repeat 0 0;
     content: "";
 height: 50px;
-left: 0px;
+left: -21px;
 position: absolute;
 top: 10px;
 width: 21px;
@@ -1944,7 +1931,7 @@ width: 21px;
     content: "";
     height: 50px;
     position: absolute;
-    right: 0px;
+    right: -21px;
     width: 21px;
 }
 .section-content .content p{
@@ -2024,4 +2011,118 @@ bottom: 80px;
   bottom: 80px;
   background: url(images/s4bg1.jpg) no-repeat;
   background-size: cover;
+}
+
+.s4h1  {
+    position: absolute;
+
+
+  bottom: 0px;
+  background: url(images/s4h1.png) no-repeat bottom center;
+
+  width: 417px;
+  height: 529px;
+  left: 0px
+}
+#section_4 .row, #section_4 .container {
+    height: 100%;
+}
+#section_4 .section-content {
+    right: 0px;
+    position: absolute;
+}
+#section_4 .title {
+    color: #0979bb;
+    line-height: 1.3;
+}
+#section_4 .title .line1 {
+    font-size: 60px;
+    font-family: "Myriad Pro Bold";
+    text-transform: uppercase;
+    text-align: left;
+
+}
+#section_4 .title .line2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: right;
+}
+#section_4 .title .line3 {
+    font-size: 20px;
+    font-family: "Myriad Pro Semibold";
+}
+.btn-s2 {
+    color: #fff;
+    background: #0979bb url(images/btn-s2.png) no-repeat right;
+}
+
+#section_4 .section-content .title:before {
+    background: url("images/s2quotes_left.png") no-repeat 0 0;
+
+}
+#section_4 .section-content .title:after {
+    background: url("images/s2quotes_right.png") no-repeat 0 0;
+
+}
+.s5bg1 {
+    background: url(images/s5bg1.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    bottom: 80px;
+    position: absolute;
+}
+
+.s5hm1 {
+    background: url(images/s5hm1.png) no-repeat bottom center;
+    width: 666px;
+    height: 493px;
+    position: absolute;
+    right: 0px;
+    bottom: 80px;
+}
+#section_5 .container {
+    height: 100%;
+}
+.s5-circle {
+    width: 726px;
+    height: 726px;
+    border-radius: 100%;
+    background: #fff;
+    position: absolute;
+    left: -176px;
+    bottom: -80px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.s5-circle .section-content {
+    position: relative;
+    padding-top: 0px;
+}
+#section_5 .title {
+    line-height: 1.2;
+    color: #0979bb;
+    width: 350px;
+}
+#section_5 .title .line1 {
+    font-size: 60px;
+    font-family: "Myriad Pro Bold";
+    text-transform: uppercase;
+    text-align: left;
+
+}
+#section_5 .title .line2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: right;
+}
+ul.list-style1 li {
+    list-style: none;
+    padding-left: 30px;
+    display: block;
+    background: url(images/stick.png) no-repeat left top;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
