@@ -47,6 +47,8 @@
   </div>
 </div>
 </div>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
 </body>
 
 </html>

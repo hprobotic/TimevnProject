@@ -34,8 +34,6 @@
 			padding: 0 !important;
 		}
 	</style>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel='stylesheet' id='addons-css' href='addons.css?ver=4.2.2' type='text/css' media='all' />
 	<link rel='stylesheet' id='jquery-datepicker-css' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css?ver=4.2.2' type='text/css' media='all' />
 	<link rel='stylesheet' id='style-css' href='style.css?ver=4.2.2' type='text/css' media='all' />
@@ -49,95 +47,83 @@
 	<script type="text/javascript" src="http://stephband.info/jparallax/js/jquery.parallax.min.js"></script>
 	<script type='text/javascript' src='scripts/main.js?ver=1.0'></script>
 	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&#038;ver=3.0'></script>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body class="home blog">
 	<div id="header">
 		<div class="container fluid clearfix">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="logo">
-    				<a href="">
-    					<img src="images/nav-logo.png" alt="Seabone">
-    				</a>
-    			</div>
-        </div>
-        <div class="col-md-9">
-          <div class="menu fl">
-    				<div id="hamburger"></div>
-    				<ul class="nav lsn clearfix">
-    					<div class="nav-close"></div>
-    					<li id="menu-item-50" class="">
-    						<a href="/" class="tac fwsb posr ttu tdn">
-    							<span class="nav-icon">
-    								<img src="images/icon-1.png" alt="">
-    							</span>
-    							<span class="nav-text">Trang chủ</span>
-    						</a>
-    					</li>
-    					<li id="menu-item-57" class="">
-    						<a href="san-pham-/" class="tac fwsb posr ttu tdn">
-    							<span class="nav-icon">
-    								<img src="images/icon-2.png" alt="">
-    							</span>
-    							<span class="nav-text">Sản phẩm</span>
-    						</a>
+			<div class="logo fl">
+				<a href="">
+					<img src="images/nav-logo.png" alt="Seabone">
+				</a>
+			</div>
 
-    					</li>
-    					<li id="menu-item-51" class="">
-    						<a href="tintuc.php" class="tac fwsb posr ttu tdn">
-    							<span class="nav-icon">
-    								<img src="images/icon-3.png" alt="">
-    							</span>
-    							<span class="nav-text">Tin tức</span>
-    						</a>
+			<div class="menu fl">
+				<div id="hamburger"></div>
+				<ul class="nav lsn clearfix">
+					<div class="nav-close"></div>
+					<li id="menu-item-50" class="">
+						<a href="/" class="tac fwsb posr ttu tdn">
+							<span class="nav-icon">
+								<img src="images/icon-1.png" alt="">
+							</span>
+							<span class="nav-text">Trang chủ</span>
+						</a>
+					</li>
+					<li id="menu-item-57" class="">
+						<a href="san-pham-/" class="tac fwsb posr ttu tdn">
+							<span class="nav-icon">
+								<img src="images/icon-2.png" alt="">
+							</span>
+							<span class="nav-text">Sản phẩm</span>
+						</a>
 
-    					</li>
-    					<li id="menu-item-53" class="">
-    						<a href="lapkehoachhuutri.php" class="tac fwsb posr ttu tdn">
-    							<span class="nav-icon">
-    								<img src="images/icon-4.png" alt="">
-    							</span>
-    							<span class="nav-text">lập kế hoạch hưu trí</span>
-    						</a>
+					</li>
+					<li id="menu-item-51" class="">
+						<a href="tintuc.php" class="tac fwsb posr ttu tdn">
+							<span class="nav-icon">
+								<img src="images/icon-3.png" alt="">
+							</span>
+							<span class="nav-text">Tin tức</span>
+						</a>
 
-    					</li>
-    					<li id="menu-item-55" class="">
-    						<a href="dichvukhachhang.php" class="tac fwsb posr ttu tdn">
-    							<span class="nav-icon">
-    								<img src="images/icon-5.png" alt="">
-    							</span>
-    							<span class="nav-text">dịch vụ khách hàng</span>
-    						</a>
+					</li>
+					<li id="menu-item-53" class="">
+						<a href="lapkehoachhuutri.php" class="tac fwsb posr ttu tdn">
+							<span class="nav-icon">
+								<img src="images/icon-4.png" alt="">
+							</span>
+							<span class="nav-text">lập kế hoạch hưu trí</span>
+						</a>
 
-    					</li>
-    					<li id="menu-item-55" class="">
-    						<a href="lienhe.php" class="tac fwsb posr ttu tdn">
-    							<span class="nav-icon">
-    								<img src="images/icon-6.png" alt="">
+					</li>
+					<li id="menu-item-55" class="">
+						<a href="dichvukhachhang.php" class="tac fwsb posr ttu tdn">
+							<span class="nav-icon">
+								<img src="images/icon-5.png" alt="">
+							</span>
+							<span class="nav-text">dịch vụ khách hàng</span>
+						</a>
 
-    							</span>
-    							<span class="nav-text">LIên hệ</span>
-    						</a>
+					</li>
+					<li id="menu-item-55" class="">
+						<a href="lienhe.php" class="tac fwsb posr ttu tdn">
+							<span class="nav-icon">
+								<img src="images/icon-6.png" alt="">
 
-    					</li>
-    				</ul>
-    			</div>
-    			<div class="nav-meta fr">
-    				<div class="search fl clearfix">
-    					<form action="/">
-    						<input type="text" class="search-input" placeholder="">
-    					</form>
-    				</div>
-    			</div>
-        </div>
+							</span>
+							<span class="nav-text">LIên hệ</span>
+						</a>
 
-      </div>
-
-
-
+					</li>
+				</ul>
+			</div>
+			<div class="nav-meta fr">
+				<div class="search fl clearfix">
+					<form action="/">
+						<input type="text" class="search-input" placeholder="">
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
