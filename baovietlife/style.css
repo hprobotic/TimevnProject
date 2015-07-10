@@ -2354,14 +2354,12 @@ ul.list-connect  li {
 }
 
 
-.main-page {
-  padding-top: 86px;
-}
 .page-cover {
  height: 340px;
  background: blue;
  background-size: cover;
  width: 100%;
+ color: #b5892c
 }
 .page-cover .container, .page-cover .row {
     height: 100%;
@@ -2369,7 +2367,6 @@ ul.list-connect  li {
  .cover-info h1 {
     font-size: 46px;
     text-transform: uppercase;
-    color: #b5892c;
 
 }
 .page-cover .col-md-12 {
@@ -2382,7 +2379,6 @@ ul.list-connect  li {
  }
  .cover-info p {
     font-size: 20px;
-    color: #b5892c;
     text-align: right;
 }
 .cover-info {
@@ -2593,4 +2589,114 @@ div.white-panel:hover .rollover img {
   border-bottom-right-radius: 3px; }
 .f-right {
     float: right;
+}
+
+#sanpham .page-cover {
+    background: url(images/cv-sanpham.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+#sanpham .cover-info {
+    width: 300px;
+}
+#sanpham .cover-info h1{
+    font-size: 31px;
+    font-family: "Myriad Pro Semibold", sans-serif;
+
+}
+#page-title {
+    text-align: center;
+}
+#page-title h1.p-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Myriad Pro Semibold", sans-serif;
+        color: #1489cb
+
+
+}
+#page-title p.p-tagline {
+    font-size: 24px;
+    color: #1489cb
+}
+#page-title p.p-intro {
+    font-size: 20px;
+    color: #666666;
+}
+#page-title p.p-hr {
+    display: block;
+    width: 30%;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.list-featured .col-md-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.list-featured .col-md-4  .ft-img {
+    margin-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+    border: 7px solid #4eafe6;
+    width: 52px;height: 52px;
+    border-radius: 100%;
+    background: #1384c7;
+}
+.list-featured .col-md-4  .ft-info {
+    font-size: 16px;
+}
+.s-content#why-us {
+    background: #f7f7f7;
+    padding: 40px 0;
+}
+.s-content#why-us h2 {
+    text-align: center;
+    font-family: "Myriad Pro Semibold", sans-serif;
+    color: #1489cb;
+    font-size: 24px;
+}
+.why-list {
+    margin-top: 20px;
+}
+.w-item {
+    background: #fff;
+    position: relative;
+    padding-left: 40%;
+    overflow: hidden;
+}
+
+.w-content {
+    color: #fff;
+    background: #1283c6;
+    width: 100%;
+    padding: 15px 25px;
+    height: 260px;
+}
+.w-content p {
+    margin-bottom: 5px;
+}
+.w-content h4 {
+    text-transform: uppercase;
+    font-family: "Myriad Pro Bold", sans-serif;
+}
+.w-content .hl {
+    color: #fffc00;
+    font-family: "Myriad Pro Semibold", sans-serif;
+}
+.p-h1  {
+    position: absolute;
+    left: -30px;
+    bottom: 0px;
+    z-index: 2;
+}
+.p-h2  {
+    position: absolute;
+    left: 30px;
+
+    bottom: 0px;
+    z-index: 2;
 }
