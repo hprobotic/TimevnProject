@@ -96,7 +96,9 @@
             </div>
           </div>
         </div>
-        <div class="f-right"><ul class="pagination"><li class="active"><a href="/">1</a></li><li><a href="/2">2</a></li><li><a href="/3">3</a></li><li><a href="/4">4</a></li><li><a href="/5">5</a></li></ul></div>
+        <div class="paginate">
+          <a href="/" class="btn btn-loadmore">Xem thêm</a>
+        </div>
 
       </div>
     </div>

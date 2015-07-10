@@ -34,33 +34,28 @@
 			padding: 0 !important;
 		}
 	</style>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link href="assets/jqueryui/jquery-ui.css" rel="stylesheet">
 	<link rel='stylesheet' id='addons-css' href='addons.css?ver=4.2.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='jquery-datepicker-css' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css?ver=4.2.2' type='text/css' media='all' />
 	<link rel='stylesheet' id='style-css' href='style.css?ver=4.2.2' type='text/css' media='all' />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js?ver=1.9.1'></script>
-	<script type='text/javascript'>
 
-	</script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type='text/javascript' src="assets/jquery/jquery.js"></script>
 	<script type='text/javascript' src='scripts/addons.js?ver=1.0'></script>
-	<script type="text/javascript" src="http://stephband.info/jparallax/js/jquery.parallax.min.js"></script>
+	<script type="text/javascript" src="assets/jquery.parallax.min.js"></script>
 	<script type='text/javascript' src='scripts/main.js?ver=1.0'></script>
-	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&#038;ver=3.0'></script>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="assets/jqueryui/jquery-ui.js"></script>
 </head>
 
-<body class="home blog">
+<body class=" blog">
 	<div id="header">
 		<div class="container fluid clearfix">
       <div class="row">
         <div class="col-md-3">
           <div class="logo">
-    				<a href="">
+    				<a href="/">
     					<img src="images/nav-logo.png" alt="Seabone">
     				</a>
     			</div>
@@ -79,7 +74,7 @@
     						</a>
     					</li>
     					<li id="menu-item-57" class="">
-    						<a href="san-pham-/" class="tac fwsb posr ttu tdn">
+    						<a href="sanpham.php" class="tac fwsb posr ttu tdn">
     							<span class="nav-icon">
     								<img src="images/icon-2.png" alt="">
     							</span>

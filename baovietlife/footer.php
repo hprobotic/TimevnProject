@@ -47,6 +47,8 @@
   </div>
 </div>
 </div>
+
+<!-- jQuery UI -->
 </body>
 
 </html>

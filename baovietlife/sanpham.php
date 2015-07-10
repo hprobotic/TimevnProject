@@ -9,12 +9,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="cover-info">
-            <h1>an hưu phát nghiệp</h1>
-            <p>
-              Giải pháp phuc lợi thu hút nhân tài
-            </p>
-          </div>
+
         </div>
       </div>
     </div>
@@ -117,6 +112,28 @@
         </div>
       </div>
     </div>
+    <div class="s-content" id="promotion">
+      <div class="container">
+        <div class="row">
+
+<div id="tabs" class="style-1">
+  <ul>
+    <li><a href="#tabs-1">CÁC QUYỀN LỢI VƯỢT TRỘI CỦA <br>
+AN HƯU PHÁT NGHIỆP</a></li>
+    <li><a href="#tabs-2">MỘT SỐ THÔNG TIN CHI TIẾT CẦN BIẾT THÊM VỀ <br> AN HƯU PHÁT NGHIỆP</a></li>
+
+  </ul>
+  <div id="tabs-1" class="promo-content">
+    <img src="images/promo1.jpg" alt="">
+  </div>
+  <div id="tabs-2">
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
 
@@ -126,7 +143,7 @@
 
   <?php include 'footer.php'; ?>
   <script>
-    jQuery(document).ready(function($) {
-      $('body').removeClass('home');
-    });
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
   </script>

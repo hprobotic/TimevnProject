@@ -2386,7 +2386,7 @@ ul.list-connect  li {
 }
 #tintuc .page-cover {
   background: url(images/cv-tintuc.jpg) no-repeat top center;
-  background-size: cover;
+
 }
 div.white-panel {
   background: #fff;
@@ -2593,8 +2593,7 @@ div.white-panel:hover .rollover img {
 
 #sanpham .page-cover {
     background: url(images/cv-sanpham.jpg) no-repeat top center;
-    -webkit-background-size: cover;
-    background-size: cover;
+
     color: #fff;
 }
 #sanpham .cover-info {
@@ -2699,4 +2698,104 @@ div.white-panel:hover .rollover img {
 
     bottom: 0px;
     z-index: 2;
+}
+.s-content#promotion {
+    padding: 40px 0;
+}
+.style-1 ul {
+    text-align: center !important;
+}
+.style-1 ul li {
+    background: #1283c6 !important;
+    color: #fff !important;
+    border: 0px solid #fff !important;
+    width: 370px;
+    text-align: center;
+    display: inline-block !important;
+    float: none !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.style-1 ul li a {
+    color: #fff !important;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Myriad Pro Semibold", sans-serif;
+}
+.style-1 {
+    border: 0px solid #fff;
+}
+.style-1 .ui-tabs .ui-tabs-nav, .ui-widget-header {
+    background: #fff;
+    border: 0px solid #fff;
+}
+.style-1 ul  li.ui-tabs-active {
+    background: #b5892c !important;
+}
+.s-content#list-qa {
+    padding: 50px 0 100px 0;
+}
+.style-1 .ui-selectmenu-button {
+    width: 100% !important;
+    background: #fff !important;
+    border-radius: 3px;
+}
+.s-content {
+    font-size: 16px;
+}
+.list-qa .ui-accordion-header {
+    background: #fff url(images/q-icon.png) no-repeat left;
+    border: 0px solid #fff;
+    border-top: 1px solid #e3e3e3;
+    font-weight: bold;
+    padding: 25px;
+    padding-left: 50px;
+
+}
+.list-qa .ui-widget-content {
+    border: 0px solid #fff;
+    padding-left: 80px;
+background: transparent url("images/a-icon.png") no-repeat scroll 55px 18px;
+
+}
+.list-qa .ui-accordion-header-icon {
+    display: none;
+}
+#cauhoi .page-cover {
+    background: url(images/cv-qa.jpg) no-repeat top center;
+}
+.list-doc .doc-item {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 20px 0;
+    background: url(images/doc-icon.png) no-repeat left;
+    padding-left: 60px;
+}
+.doc-item a {
+    color: #000000;
+}
+.doc-item a  i.fa {
+    color: #0979bb;
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.doc-item:last-child {
+ border-bottom: 0px solid #fff;
+}
+.s-content#list-doc {
+    padding: 50px 0 100px;
+}
+#thongtin .page-cover {
+    background: url(images/cv-ttht.jpg) no-repeat top center;
+}
+.btn-loadmore {
+    width: 150px;
+    display: block;
+    background: #e7e7e7;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 0px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 }
