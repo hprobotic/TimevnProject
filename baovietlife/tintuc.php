@@ -11,9 +11,9 @@
         <div class="col-md-12">
           <div class="cover-info">
             <h1>hưu trí bảo việt</h1>
-          <p>
-            Phúc lợi tốt, gắn kết bền
-          </p>
+            <p>
+              Phúc lợi tốt, gắn kết bền
+            </p>
           </div>
         </div>
       </div>

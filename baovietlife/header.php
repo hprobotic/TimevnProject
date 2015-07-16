@@ -38,15 +38,19 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link href="assets/jqueryui/jquery-ui.css" rel="stylesheet">
 	<link rel='stylesheet' id='addons-css' href='addons.css?ver=4.2.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='style-css' href='style.css?ver=4.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css' href='style.css?ver=4.2.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='style-css' href='assets/pips/jqueryui-ui-slider-pips.css' type='text/css' media='all' />
 
     <!-- Latest compiled and minified JavaScript -->
     <script type='text/javascript' src="assets/jquery/jquery.js"></script>
+    <script type='text/javascript' src="assets/jqueryui/jquery-ui.js"></script>
+    <script type='text/javascript' src="assets/pips/jquery-ui-slider-pips.js"></script>
 	<script type='text/javascript' src='scripts/addons.js?ver=1.0'></script>
 	<script type="text/javascript" src="assets/jquery.parallax.min.js"></script>
 	<script type='text/javascript' src='scripts/main.js?ver=1.0'></script>
     <script type='text/javascript' src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script type='text/javascript' src="assets/jqueryui/jquery-ui.js"></script>
+
+
 </head>
 
 <body class=" blog">
@@ -92,7 +96,7 @@
 
     					</li>
     					<li id="menu-item-53" class="">
-    						<a href="lapkehoachhuutri.php" class="tac fwsb posr ttu tdn">
+    						<a href="kehoach.php" class="tac fwsb posr ttu tdn">
     							<span class="nav-icon">
     								<img src="images/icon-4.png" alt="">
     							</span>
