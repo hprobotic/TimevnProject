@@ -33,8 +33,8 @@
 
                     <div class="target-sex">
                         <ul class="list-inline ">
-                            <li class="nam"><a href="/">Nam</a></li>
-                            <li class="nu"><a href="/">Nữ</a></li>
+                            <li class="nam"><a onclick="javascripts:">Nam</a></li>
+                            <li class="nu"><a onclick="javascripts:">Nữ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <p>Tuổi hiện tại của bạn</p>
+                            <p>Tuổi nghỉ hưu dự kiến</p>
                             <div class="form-group">
                                 <div class="slider-s1">
                                     <div id="slider-range2"></div>
@@ -226,7 +226,7 @@
                 <div class="col-md-6">
                     <div class="plan-block">
                         <h4 class="block-title">
-                            Minh họa Tài khoản hưu trí trong thời gian đóng góp
+                            Minh họa quyền lợi hưu trí
                         </h4>
                         <div class="block-content">
                             <table class="gray fw">
@@ -383,8 +383,8 @@ jQuery(document).ready(function($) {
     $('.fake-wrap').height(lvh);
     $('.target-sex').css('padding-top', lvh/2 - 50);
     $('.target-sex ul li').click(function() {
-        $('.target-sex ul li').removeClass('clicked');
-        $(this).addClass('clicked');
+        $('.target-sex ul li').css('opacity', '0.8');
+        $(this).css('opacity', '1');
     });
 });
 

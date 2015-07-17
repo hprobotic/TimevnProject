@@ -37,18 +37,18 @@
             </div>
             <div class="col-md-4">
               <div class="ft-img">
-                <img src="images/featured1.png" alt="">
+                <img src="images/featured2.png" alt="">
               </div>
               <div class="ft-info">
-                <p>Các nhân viên chưa thực sự say mê cống hiến và muốn gắn bó lâu dài với doanh nghiệp?</p>
+                <p>Các chương trình phúc lợi dành cho nhân viên chưa đủ hấp dẫn, cạnh tranh với các doanh nghiệp khác để giữ chân những nhân viên giỏi? </p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="ft-img">
-                <img src="images/featured1.png" alt="">
+                <img src="images/featured3.png" alt="">
               </div>
               <div class="ft-info">
-                <p>Các nhân viên chưa thực sự say mê cống hiến và muốn gắn bó lâu dài với doanh nghiệp?</p>
+                <p>Các chương trình phúc lợi hiện tại của doanh nghiệp chưa tạo sự chủ động và linh hoạt cho doanh nghiệp thích ứng với các thay đổi trong chính sách quản lý doanh nghiệp hàng năm?</p>
               </div>
             </div>
           </div>
